@@ -1,14 +1,6 @@
-# Leaflet 練習地圖
+# Leaflet 地圖
 
-用 [Leaflet.js](https://leafletjs.com/) 從零學習互動地圖的範例集，每個主題獨立一頁，方便對照學習。
-
-## 線上展示
-
-部署後可在以下網址查看（替換為你的 GitHub 帳號）：
-
-```
-https://<your-username>.github.io/<repo-name>/
-```
+用 [Leaflet.js](https://leafletjs.com/) 從零開始製作互動地圖的範例，每個主題獨立一頁，方便對照。
 
 ---
 
@@ -32,39 +24,8 @@ https://<your-username>.github.io/<repo-name>/
 
 或用 VS Code 安裝 **Live Server** 擴充套件後右鍵 → Open with Live Server。
 
----
 
-## 上傳到 GitHub Pages 步驟
-
-### 1. 建立 GitHub Repository
-
-在 GitHub 新增一個 repository，建議設為 **Public**（Pages 免費方案需要 Public）。
-
-### 2. 推上去
-
-```bash
-git init
-git add .
-git commit -m "init"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
-```
-
-### 3. 開啟 Pages 設定
-
-GitHub repo 頁面 → **Settings** → **Pages**
-
-- Source 選 **GitHub Actions**
-- 儲存後 push 到 main 就會自動觸發部署
-
-### 4. 查看部署狀態
-
-GitHub repo 頁面 → **Actions** tab，可以看到每次 push 的部署紀錄。
-
----
-
-## 學習內容
+## 內容
 
 ### setView / marker / bindPopup
 
