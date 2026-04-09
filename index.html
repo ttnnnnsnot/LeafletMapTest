@@ -3,9 +3,7 @@
     <title>Leaflet 練習</title>
     <style>
         body { font-family: sans-serif; max-width: 600px; margin: 60px auto; }
-        h1 { margin-bottom: 8px; }
-        .day { margin-top: 32px; }
-        .day h2 { font-size: 1rem; color: #666; margin-bottom: 8px; }
+        h1 { margin-bottom: 16px; }
         a.tab {
             display: block; padding: 12px 16px; margin: 6px 0;
             background: #f5f5f5; border-radius: 6px; text-decoration: none; color: #222;
@@ -17,28 +15,21 @@
 <body>
     <h1>Leaflet 練習</h1>
 
-    <div class="day">
-        <h2>第一天</h2>
-        <a class="tab" href="day1-tab1.html">
-            Tab ① setView / marker / bindPopup
-            <span>基本地圖 + 標記 + 彈出框</span>
-        </a>
-        <a class="tab" href="day1-tab2.html">
-            Tab ② map.on('click')
-            <span>點擊地圖取得座標、動態新增 marker</span>
-        </a>
-    </div>
-
-    <div class="day">
-        <h2>第二天</h2>
-        <a class="tab" href="day2-tab1.html">
-            Tab ③ polygon / circle
-            <span>幾何圖形 + 樣式設定</span>
-        </a>
-        <a class="tab" href="day2-tab2.html">
-            Tab ④ L.geoJSON()
-            <span>style / onEachFeature / pointToLayer</span>
-        </a>
-    </div>
+    <a class="tab" href="day1-tab1.html">
+        setView / marker / bindPopup
+        <span>基本地圖 + 標記 + 彈出框</span>
+    </a>
+    <a class="tab" href="day1-tab2.html">
+        map.on('click')
+        <span>點擊地圖取得座標、動態新增 marker</span>
+    </a>
+    <a class="tab" href="day2-tab1.html">
+        polygon / circle / polyline
+        <span>幾何圖形 + 樣式設定</span>
+    </a>
+    <a class="tab" href="day2-tab2.html">
+        L.geoJSON()
+        <span>style / onEachFeature / pointToLayer</span>
+    </a>
 </body>
 </html>
