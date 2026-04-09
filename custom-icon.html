@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>自訂圖示 L.icon / L.divIcon</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body { margin: 0; font-family: sans-serif; }
+        #toolbar { padding: 10px 16px; background: #f5f5f5; display: flex; align-items: center; gap: 16px; }
+        #toolbar a { text-decoration: none; color: #555; font-size: 0.9rem; }
+        #map { height: calc(100vh - 44px); }
+    </style>
+</head>
+<body>
+    <div id="toolbar">
+        <a href="index.html">← 返回</a>
+        <strong>自訂圖示 — L.icon() / L.divIcon()</strong>
+    </div>
+    <div id="map"></div>
+    <script src="custom-icon.js"></script>
+</body>
+</html>

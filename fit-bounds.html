@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>自動縮放 fitBounds</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body { margin: 0; font-family: sans-serif; }
+        #toolbar { padding: 10px 16px; background: #f5f5f5; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+        #toolbar a { text-decoration: none; color: #555; font-size: 0.9rem; }
+        button { padding: 5px 12px; border-radius: 4px; border: 1px solid #ccc; cursor: pointer; font-size: 0.85rem; }
+        #map { height: calc(100vh - 44px); }
+    </style>
+</head>
+<body>
+    <div id="toolbar">
+        <a href="index.html">← 返回</a>
+        <strong>自動縮放 — fitBounds / getBounds</strong>
+        <button id="btn-all">縮放至全部標記</button>
+        <button id="btn-north">縮放至北部</button>
+        <button id="btn-manual">手動設定邊界框</button>
+    </div>
+    <div id="map"></div>
+    <script src="fit-bounds.js"></script>
+</body>
+</html>
