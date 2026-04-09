@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Tab ② map.on('click')</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body { margin: 0; font-family: sans-serif; }
+        #toolbar { padding: 10px 16px; background: #f5f5f5; display: flex; align-items: center; gap: 16px; }
+        #toolbar a { text-decoration: none; color: #555; font-size: 0.9rem; }
+        #coords {
+            margin-left: auto; font-size: 0.85rem; color: #333;
+            font-family: monospace; background: #fff; padding: 4px 10px; border-radius: 4px;
+        }
+        #map { height: calc(100vh - 44px); }
+    </style>
+</head>
+<body>
+    <div id="toolbar">
+        <a href="index.html">← 返回</a>
+        <strong>Tab ② map.on('click') — 點地圖新增標記</strong>
+        <span id="coords">移動滑鼠查看座標</span>
+    </div>
+    <div id="map"></div>
+    <script src="day1-tab2.js"></script>
+</body>
+</html>
